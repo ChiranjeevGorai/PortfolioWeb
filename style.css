@@ -6,7 +6,6 @@
 }
 
 body {
-    /* background-color: rgb(0, 0, 33); */
     background-color: #FFDCDC;
     color: #222831;
 }
@@ -24,6 +23,7 @@ nav {
     background-color: #FFD6BA;
     font-size: larger;
     font-weight: bolder;
+    border-radius: 5px;
 }
 
 nav ul {
@@ -31,9 +31,16 @@ nav ul {
     justify-content: center;
 }
 
+li a {
+    text-decoration: none;
+    font-size: larger;
+}
+
 nav li {
     list-style: none;
+    color: black;
     margin: 0 23px;
+
 }
 
 nav .left {
@@ -43,23 +50,26 @@ nav .left {
 .firstSection {
     display: flex;
     justify-content: space-around;
-    margin: 23px 0;
+    align-items: Center;
+    margin: 40px 0;
 
 }
 
-.firstSection div {
+.firstSection>div {
     width: 30rem;
 
 }
 
-
-
 .leftSection {
-    background-color: red;
-
+    margin: 66px 0;
+    font-size: 3rem;
 }
 
-.rightSection {
-    background-color: red;
+.rightSection img {
+    width: 32vw;
+    margin: 35px 0;
+}
 
+.shade {
+    color: rgb(125, 40, 205);
 }
